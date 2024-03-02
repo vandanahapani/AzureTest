@@ -31,7 +31,7 @@ public class BrowserChromeTest {
 		    options.setExperimentalOption("prefs", chromePrefs);
 		    options.addArguments("disable-infobars");
 		    options.addArguments("disable-extensions");
-		    //options.addArguments("--headless");
+		    options.addArguments("--headless");
 		    options.addArguments("window-size=1920x1080");
 		    options.addArguments("--start-maximized");
 		    options.addArguments("--incognito");
