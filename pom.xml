@@ -28,10 +28,8 @@
 </dependency>
 
   </dependencies>
-<build>
+	<build>
 		<pluginManagement>
-			<!-- lock down plugins versions to avoid using Maven 
-				defaults (may be moved to parent pom) -->
 			<plugins>
 
 
@@ -72,13 +70,14 @@
 						<env>${Screenshots}</env> -->
 						</systemPropertyVariables>
 						<suiteXmlFiles>
-							<suiteXmlFile>${suiteXmlFile}</suiteXmlFile> 
-						<!-- 	<suiteXmlFile>testcases/all.xml</suiteXmlFile> -->
+							<!--<suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+							<suiteXmlFile>testng.xml</suiteXmlFile> 
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
 
 			</plugins>
+			
 		</pluginManagement>
 
 	</build>
